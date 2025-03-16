@@ -14,7 +14,7 @@ class PenTester:
     def broke(self):
         if self.energy_drink is None:
             self.energy_drink = "Rockstar"
-            print("Out of money:( ")
+            print("Out of money☹ ")
 
 me = PenTester()
 me.broke()
