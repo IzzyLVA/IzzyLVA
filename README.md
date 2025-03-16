@@ -11,7 +11,7 @@ class PenTester:
         self.currently_learning = ["Radio Hacking", "Coding"]
         self.energy_drink = None
 
-    def refill(self):
+    def broke(self):
         if self.energy_drink is None:
             self.energy_drink = "Rockstar"
             print("Out of money:( ")
