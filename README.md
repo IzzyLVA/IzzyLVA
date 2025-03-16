@@ -1,7 +1,7 @@
 ## Greetings :3
 
 ```python
-import Rockstar
+import Energy_Drink
     class PenTester:
         def __init__(self):
             self.name = "Izzy"
