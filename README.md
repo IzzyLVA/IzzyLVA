@@ -1,16 +1,20 @@
-## Hi there 👋
+## Greetings :3
 
-<!--
-**IzzyLVA/IzzyLVA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class PenTester:
+    def __init__(self):
+        self.name = "Izzy"
+        self.role = "Student"
+        self.location = "U.S"
+        self.major = "Cybersecurity"
+        self.interests = ["Cybersecurity", "Automotive", "Computer Science"]
+        self.currently_learning = ["Radio Hacking", "Coding"]
+        self.energy_drink = None
 
-Here are some ideas to get you started:
+    def refill(self):
+        if self.energy_drink is None:
+            self.energy_drink = "Rockstar"
+            print("Out of money:( ")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = PenTester()
+me.broke()
