@@ -9,7 +9,7 @@ import Energy_Drink
             self.location = "U.S"
             self.major = "Cybersecurity"
             self.interests = ["Cybersecurity", "Automotive", "Computer Science"]
-            self.currently_learning = ["Radio Hacking", "Coding"]
+            self.currently_learning = ["Hacking :3", "Coding"]
             self.energy_drink = None
 
         def broke(self):
