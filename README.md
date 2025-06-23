@@ -6,7 +6,7 @@ import Energy_Drink
         def __init__(self):
             self.name = "Izzy"
             self.role = "Student"
-            self.location = "U.S"
+            self.location = "OR US = JP"
             self.major = "Cybersecurity"
             self.interests = ["Cybersecurity", "Automotive", "Computer Science"]
             self.currently_learning = ["Hacking :3", "Coding"]
